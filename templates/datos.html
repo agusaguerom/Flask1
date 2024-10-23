@@ -1,0 +1,29 @@
+{% extends "layout/layout.html" %}
+
+{% block title %}Formulario{% endblock %}
+
+
+{% block content %}
+
+
+
+  <div class="container contenedordatosingresados">
+    <div class="alert alert-success" role="alert">
+        Se Ingreso correctamente al Usuario
+      </div>
+
+    <h1>Usuario:</h1>
+    <h2>{{ usuario }}</h2>
+    <h1>DNI: </h1>
+    <h2>{{ dni }}</h2>
+    <h1>Contraseña</h1>
+    <h2>{{ cont }}</h2>   
+  </div>
+ 
+<div class="botonesdatos">
+    <button type="button" class="btn btn-primary"> <a href="/usuarios">Ver todos los Usuario</a></button>
+    <button type="button" class="btn btn-danger"> <a href="/">Volver</a></button>
+</div>
+
+
+{% endblock %}

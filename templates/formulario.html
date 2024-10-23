@@ -1,0 +1,24 @@
+{% extends "layout/layout.html" %}
+
+{% block title %}Formulario{% endblock %}
+
+
+{% block content %}
+<div class="container">
+<form method="POST" action="/datos">
+    <div class="form-group">
+      <label for="usuario">Usuario</label>
+      <input type="text" class="form-control" name="usuario" placeholder="Ingrese usuario">
+    </div>
+    <div class="form-group">
+        <label for="dni">DNI</label>
+        <input type="number" class="form-control" name="dni" placeholder="Ingrese DNI">
+      </div>
+    <div class="form-group">
+      <label for="cont">Contraseña</label>
+      <input type="password" class="form-control" name="cont" placeholder="Ingrese Contraseña">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+{% endblock %}

@@ -1,0 +1,45 @@
+.contenedorindex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.contenedorindex > button{
+    margin: 10px;
+}
+
+.contenedorindex > button > a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.contenedordatosingresados{
+    margin-top: 25px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.contenedordatosingresados h1{
+    width: auto;
+    font-weight: 800;
+    text-decoration: underline;
+
+}
+.contenedordatosingresados h2{
+    font-weight: 500;
+
+}
+.botonesdatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botonesdatos > button{
+    margin: 20px;
+}
+
+.botonesdatos > button > a{
+    color: white;
+    text-decoration: none;
+}
